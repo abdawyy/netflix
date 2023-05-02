@@ -1,0 +1,134 @@
+
+body{
+    
+    background: black;
+    color: white;
+   
+}
+nav{
+    background-color: transparent;
+    
+}
+
+
+.feature img{
+    position: relative;
+    
+
+    
+    
+    z-index: 2;
+}
+main{
+    height: 100vw;
+}
+
+
+.artical{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    height: 30vw;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  
+}
+.first span{
+    color: white;
+    border: transparent;
+}
+
+.first{
+    
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  justify-content: center;
+}
+.email{
+    color: grey
+    
+}
+.row{
+    display: flex;
+}
+
+.artical1{
+    padding: 5px;
+}
+.feature{
+    border-top:  8px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding:25px;
+    
+    
+}
+
+.video{
+    position: absolute;
+    bottom: 0;
+    top: -382;
+    left: 80;
+    right: 0;
+    z-index: -2;
+}
+.accor{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: gray;
+    border-top: 8px solid gray;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 0PX;
+    padding: 0px;
+    margin-left: 20px;
+    
+}
+footer ul li{
+    list-style-type: none;
+    
+    
+
+}
+footer p{
+
+    margin-left: 20px;
+}
+.second{
+    border-top:8px solid gray;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.second h4{
+    padding-top: 20px;
+    text-align: center;
+}
+.sec{
+    
+    width: 100%;
+    padding: 20px;
+}
+.sec span{
+    color: white;
+    border: transparent;
+}
